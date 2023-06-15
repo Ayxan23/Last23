@@ -11,6 +11,7 @@ bars_li.addEventListener("click", () => {
 
 search_li.addEventListener("click", () => {
   search.classList.add("display_flex");
+  search_input.focus();
 });
 
 search_input.addEventListener("blur", () => {
