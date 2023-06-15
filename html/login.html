@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart</title>
+    <title>Log In</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="shortcut icon"
       href="./img/logo-regular.png"
@@ -31,7 +31,7 @@
             <li><a href="#">SHOP ALL</a></li>
             <li><a href="/about.html">ABOUT US</a></li>
             <li><a href="/contact.html">CONTACT</a></li>
-            <li><a href="/login.html">Log In</a></li>
+            <li><a href="#">Log In</a></li>
           </ul>
           <ul class="basket_ul">
             <li>
@@ -49,95 +49,35 @@
     </header>
     <!-- Header End -->
 
-    <!-- Shop Start -->
+    <!-- Login Start -->
     <div class="container">
-      <div class="cart_title">
-        <h2 class="title_h2">Shop</h2>
-        <div class="main_title_line"></div>
-      </div>
-      <section class="shop">
-        <div class="category_shop">
-            <div class="category_list">
-              <div class="category_list_top"><h2>Categories</h2></div>
-              <div class="category_list_bottom">
-                <p><a href="#">Bedroom <span class="category_span">2</span></a></p>
-                <p><a href="#">Decor <span class="category_span">2</span></a></p>
-                <p><a href="#">Living Room <span class="category_span">2</span></a></p>
-                <p><a href="#">Office <span class="category_span">2</span></a></p>
-              </div>
+      <section class="login">
+        <div class="login_box">
+          <div class="main_title">
+            <h2 class="title_h2">Login</h2>
+          </div>
+          <form class="login_form" method="post">
+            <input class="login_input" type="text" placeholder="Username" />
+            <input class="login_input" type="password" placeholder="Password" />
+
+            <div class="login_checkbox">
+              <input type="checkbox" id="RememberMe" />
+              <label for="RememberMe">Remember me</label>
             </div>
-        </div>
-        <div class="products_boxes">
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-01-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 1</h2>
-                <p>$85.00</p>
-              </div>
+
+            <div class="login_link">
+              <a href="#">Forgot password?</a>
+              <a href="#">Don't have an account?</a>
             </div>
-          </a>
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-06-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 2</h2>
-                <p>$85.00</p>
-              </div>
+
+            <div class="login_button">
+              <button type="submit">Log in</button>
             </div>
-          </a>
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-09-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 3</h2>
-                <p>$85.00</p>
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-14-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 4</h2>
-                <p>$85.00</p>
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-15-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 5</h2>
-                <p>$85.00</p>
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_box">
-              <div class="product_box_img">
-                <img src="./img/product-16-a-400x488.jpg" alt="product" />
-              </div>
-              <div class="product_box_text">
-                <h2>Product name 6</h2>
-                <p>$85.00</p>
-              </div>
-            </div>
-          </a>
+          </form>
         </div>
       </section>
     </div>
-    <!-- Shop End -->
+    <!-- Login End -->
 
     <!-- Footer Start -->
     <footer class="home_footer">
