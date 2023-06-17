@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -1173,8 +1174,9 @@ td {
 .search input {
   height: 100%;
   margin: 30px;
-  background-color: transparent;
   color: white;
+  background-color: black;
+  opacity: 0.9;
   font-size: 28px;
   border: none;
   outline: none;
