@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/logo-regular.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="bg_color_card">
+    <div class="container">
+      <section class="credit_cart">
+        <div class="login_box">
+          <div class="main_title">
+            <h2 class="title_h2">Card</h2>
+          </div>
+          <form class="login_form" method="post">
+            <label for="#">Card number</label>
+            <input
+              class="login_input"
+              type="number"
+              placeholder="XXXX XXXX XXXX XXXX"
+            />
+
+            <div class="card_date_box">
+              <div class="card_date">
+                <label for="#">Expiration date</label>
+                <input
+                  class="login_input"
+                  type="number"
+                  placeholder="MM / YYYY"
+                />
+              </div>
+              <div class="card_date">
+                <label for="#">CVV</label>
+                <input class="login_input" type="number" placeholder="CVV" />
+              </div>
+            </div>
+
+            <div class="login_button buy_button">
+              <button type="submit">Buy</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
